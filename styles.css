@@ -293,6 +293,8 @@ h1,h2,h3,h4{font-family:var(--f-disp);letter-spacing:-.02em;line-height:1.08;tex
 .contact-info p{color:var(--muted);font-size:17px;margin-bottom:28px;max-width:44ch}
 .contact-list{list-style:none;display:flex;flex-direction:column;gap:16px}
 .contact-list li{display:flex;gap:14px;align-items:center}
+.contact-list .contact-item{display:flex;align-items:center;gap:14px;width:100%;color:inherit;text-decoration:none;transition:opacity .15s}
+.contact-list .contact-item:hover .v{color:var(--live-dark)}
 .contact-list .ic{width:42px;height:42px;border-radius:11px;background:var(--surface-2);color:var(--live-dark);display:grid;place-items:center;flex:0 0 auto}
 .contact-list .ic svg{width:20px;height:20px}
 .contact-list .t{font-family:var(--f-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
